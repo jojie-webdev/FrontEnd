@@ -1,0 +1,314 @@
+body {
+  padding:0px; 
+  margin:0 auto; 
+  background-color:#fff;
+  max-width: 1400px;
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ', Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.banner-slider-container {
+  position:relative;
+  margin:0 auto;
+  top:0px;
+  left:0px;
+  width:1400px;
+  height:418px;
+  overflow:hidden;
+  visibility:hidden;
+}
+.img-slider-container {
+  cursor:default;
+  position:relative;
+  top:0px;
+  left:0px;
+  width:1400px;
+  height:418px;
+  overflow:hidden;
+}
+/*jssor slider loading skin spin css*/
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/*jssor slider bullet skin 051 css*/
+.jssorb051 .i {position:absolute;cursor:pointer;}
+.jssorb051 .i .b {fill:#fff;fill-opacity:0.5;}
+.jssorb051 .i:hover .b {fill-opacity:.7;}
+.jssorb051 .iav .b {fill-opacity: 1;}
+.jssorb051 .i.idn {opacity:.3;}
+
+/*jssor slider arrow skin 051 css*/
+.jssora051 {display:block;position:absolute;cursor:pointer;}
+.jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+.jssora051:hover {opacity:.8;}
+.jssora051.jssora051dn {opacity:.5;}
+.jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+.bullet{position:absolute;bottom:12px;right:12px;}
+
+/*Slider Arrow*/
+.button-arrow {
+  color: white;
+  font-size: 66px;
+  margin-right: -164px;
+  width: 30px;
+  height: 48px;
+  margin-left: 148px;
+}
+.slider-arrow-right {
+  color: white;
+  font-size: 66px;
+  width: 30px;
+  margin-left: -228px;
+  height: 48px;
+}
+.slider-arrow-left {
+  color: white;
+  font-size: 66px;
+  width: 30px;
+  height: 48px;
+  margin-left: 132px;
+}
+
+/*CONTAINER */
+.container {
+  text-align: center;
+}
+.website-logo {
+  font-size: 60px;
+  font-family: lucida calligraphy;
+  line-height: 1em;
+  color: #000000;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 3px;
+}
+
+/*CONTENT OF THE PROJECT*/
+.content-container {
+  padding: 43px 160px;
+  display: inline-block;
+  float: left;
+}
+.main-content {
+  width: 740px;
+  float: left; 
+  text-align: left;
+}
+.body-content {
+  padding-bottom: 40px;
+}
+#body-content-last {
+  padding-bottom: 55px!important;
+}
+.img-content {
+  float: left;
+}
+.text-content {
+  width: 477px;
+  line-height: 1.3rem;
+  padding-left: 15px;
+}
+.date-content {
+  width: 60px;
+  height: 10px;
+  color: #999999;
+  font-family: Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.2px;
+  letter-spacing: -0.26px;
+  padding-bottom: 14px;
+}
+.title-content {
+  font-size: 18px;
+  padding-bottom: 15px;
+  width: 459px;
+  height: 40px;
+}
+.title-content a{
+  text-decoration: none;
+  color: #000;
+  color: #000000;
+  font-family: "Yu Go";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  letter-spacing: -0.36px;
+}
+.title-content a:hover {
+  color: #e7ba2f;
+}
+.content-description {
+  width: 472px;
+  height: 29px;
+  color: #000000;
+  font-family: "Yu Go";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16.9px;
+  letter-spacing: -0.26px;
+}
+.content-button-container {
+  display: flex; 
+  justify-content: center; 
+  width: 100%;
+  padding-bottom: 21px;
+}
+.button-more {
+  color: #fff;
+  text-decoration: none; 
+  width: 404px;
+  height: 40px;
+  background-color: #333333;
+  text-align: center;
+  padding-top: 5px;
+}
+.button-more-arrow {
+  margin-right: -25px;
+  margin-left: 50px;
+  color:  white; 
+  font-size:25px; 
+  margin-right: -164px;
+  margin-left: 148px;
+}
+
+/* SIDEBAR  */
+.content-sidebar {
+  background: #efefef; 
+  padding: 20px;
+  max-width: 300px; 
+  float: right;
+}
+.sidebar-banner {
+  display: flex; 
+  flex-direction: column;
+  margin-bottom: 41px;
+}
+.sidebar-dummy-banner {
+  width: 300px; 
+  height: 300px; 
+  margin: auto; 
+  background-color: #ffffff;
+}
+.sidebar-dummy-banner span {
+  position: relative; 
+  top: 40%; 
+  transform: translateY(-50%);
+  text-decoration: none;
+  color: #000;
+}
+.sidebar-recommended {
+  text-align: center;
+  width: 100%;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+}
+.sidebar-recommended span {
+  width: 155px;
+  height: 20px;
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36.02px;
+  letter-spacing: 2.15px;
+}
+.sidebar-content {
+  float: left; 
+  text-align: left; 
+  line-height: 1em;
+  padding-bottom: 40px; 
+  width: 100%;
+}
+.sidebar-body-content {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+.sidebar-text-content {
+  padding-left: 5px;
+}
+.sidebar-title-content {
+  margin-right: 14px;
+  line-height: 15.25px!important;
+}
+.sidebar-title-content a {
+  text-decoration: none;
+  width: 166px;
+  height: 45px;
+  color: #000000;
+  font-family: "Yu Go";
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: -0.13px;
+}
+.sidebar-title-content a:hover {
+  color: #e7ba2f;
+}
+.sidebar-date-content {
+  width: 62px;
+  height: 9px;
+  color: #999999;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+}
+.sidebar-multiple-banner {
+  display: flex; 
+  flex-direction: column;
+}
+.sidebar-banner-li {
+  width: 300px; 
+  height: 90px; 
+  margin: auto; 
+  background-color: #666666;
+  text-align: center; 
+  margin-bottom: 10px;
+}
+#last{
+  margin-bottom: 0px!important;
+}
+.sidebar-banner-text {
+  position: relative; 
+  color: #ffffff; 
+  top: 40%; transform: translateY(-50%);
+}
+
+.scroll-top {
+  float: right; 
+  padding-right: 125px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #000000; 
+  color: #fff; 
+  display: flex; 
+  flex-direction: row; 
+  width: 100%;
+  padding: 15px 0px;
+}
+.footer-left {
+  width: 50%;
+  text-align: left; 
+  padding-left: 125px;
+}
+.footer-left a{
+  text-decoration: none;
+  color: #fff;
+}
+.footer-left a:hover {
+  color: #e7ba2f;
+}
+.footer-right {
+  width: 50%;
+  text-align: right; 
+  padding-right: 125px; 
+}
